@@ -1,0 +1,56 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    border-radius: 10px;
+}
+
+body, main, aside {
+    background: honeydew;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 8px groove rgb(171, 224, 171);
+}
+
+button {
+    font-weight: 700;
+    background: white;
+    padding: 10px;
+    border: 3px solid black
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+
+p {
+    width: 75%;
+    margin: 0;
+}
+
+
+
